@@ -98,5 +98,4 @@ dot.place(x=145, y=223)
 equal = Button(frame_body, command = calculate, text="=", width=6, height=2, fg=white, bg=orange, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
 equal.place(x=217, y=223)
 
-
 window.mainloop()

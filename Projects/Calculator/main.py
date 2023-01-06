@@ -48,7 +48,7 @@ frame_body.grid(row=1, column=0)
 value = StringVar()
 values = ""
 
-# Labels
+# Label
 app_label = Label(frame_display, textvariable=value, width=20, height=3, anchor="e",justify=RIGHT, font=("Ivi 18"), bg=gray2, fg=white, relief=FLAT, padx=5)
 app_label.place(x=0, y=0)
 

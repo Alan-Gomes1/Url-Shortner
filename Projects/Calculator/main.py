@@ -25,7 +25,7 @@ def clear_screen():
   value.set("")
 
 
-#Colors
+# Colors
 black = "#201e26"
 gray = "#e6e6e6"
 gray2 = "#4f4e57"
@@ -44,7 +44,7 @@ frame_display.grid(row=0, column=0)
 frame_body = Frame(window, width=290, height=285)
 frame_body.grid(row=1, column=0)
 
-#Variables
+# Variables
 value = StringVar()
 values = ""
 

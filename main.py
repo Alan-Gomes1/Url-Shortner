@@ -39,7 +39,6 @@ def menu(arg):
   botao_para['values'] = unidade_para
   label_direita['text'] = arg
   
-  
   def conversao():
     """dada duas unidades de medidas, para calcular a conversão de uma unidade maior para outra menor basta multiplicar R N vezes,
     já para conversão de uma unidade menor para uma maior, basta dividir por R N vezes, 
@@ -167,6 +166,5 @@ label_para = Label(frame_direita, text="Para", height=1, relief="groove", anchor
 label_para.place(x=100, y=70)
 botao_para = ttk.Combobox(frame_direita, width=5, justify=('center'), font=('Ivy 8 bold'))
 botao_para.place(x=136, y=70)
-
 
 window.mainloop()
